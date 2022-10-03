@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>野菜カリキュレーター</title>
+    <link rel="stylesheet" href="style.css" />
+<!-- async ダウンロードされるとすぐに実行される（googleの広告とかbodyと関係ない箇所なら良い）。 -->
+<!-- defer ダウンロード後、bodyが読み込まれた段階で実行される（bodyに最後記載した場合と実行タイミングが同じだが、読み込みが同時並行なので効率がいい）。 -->
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>野菜カリキュレーター</h1>
+    <div class="vegetables">
+      <div class="vegetable">
+        <div class="vegetable__name">にんじん</div>
+        <div class="vegetable__weight">150g</div>
+      </div>
+      <div class="vegetable">
+        <div class="vegetable__name">キャベツ1/4</div>
+        <div class="vegetable__weight">300g</div>
+      </div>
+      <div class="vegetable">
+        <div class="vegetable__name">トマト</div>
+        <div class="vegetable__weight">200g</div>
+      </div>
+      <div class="vegetable">
+        <div class="vegetable__name">玉ねぎ</div>
+        <div class="vegetable__weight">200g</div>
+      </div>
+      <div class="vegetable">
+        <div class="vegetable__name">大根1/4</div>
+        <div class="vegetable__weight">300g</div>
+      </div>
+      <div class="vegetable">
+        <div class="vegetable__name">小松菜</div>
+        <div class="vegetable__weight">230g</div>
+      </div>
+      <div class="vegetable">
+        <div class="vegetable__name">長ネギ1/4</div>
+        <div class="vegetable__weight">50g</div>
+      </div>
+      <div class="vegetable">
+        <div class="vegetable__name">もやし1/2</div>
+        <div class="vegetable__weight">100g</div>
+      </div>
+      <div class="vegetable">
+        <div class="vegetable__name">ほうれん草</div>
+        <div class="vegetable__weight">200g</div>
+      </div>
+      <div class="vegetable">
+        <div class="vegetable__name">ピーマン</div>
+        <div class="vegetable__weight">33g</div>
+      </div>
+    </div>
+    <div class="total-weight">0g</div>
+  </body>
+</html>
